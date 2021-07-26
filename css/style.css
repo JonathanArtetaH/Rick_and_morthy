@@ -21,6 +21,7 @@ body {
 #imagen {
     background-size: cover;
     border-radius: 40px;
+    width: 80%;
 }
 
 h1,
