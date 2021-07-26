@@ -1,0 +1,66 @@
+body {
+    text-align: -webkit-center;
+    background-size: cover;
+}
+
+#container {
+
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    width: 30%;
+
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#imagen {
+    background-size: cover;
+    border-radius: 40px;
+}
+
+h1,
+h2,
+p {
+    color: white;
+}
+
+p {
+    font-size: 20px
+}
+
+.desc {
+    padding-left: 60px;
+    text-align: left;
+}
+
+a {
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.previous {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px); 
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: rgb(255, 254, 254);
+    width: 40%;
+}
+
+
+.round {
+    border-radius: 50%;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
